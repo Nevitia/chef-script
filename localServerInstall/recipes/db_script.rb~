@@ -1,0 +1,4 @@
+cookbook_file 'C:\temp\examinator.sql' do
+  source 'examinator.sql'
+  action :create
+end
